@@ -22,7 +22,8 @@
   UseDeviceWidth="false"
   PreCompileScaledImages="false"
   MenuSkin="/Project/Skins/SideMenu.flskn"
-  EquationsOutputType="PNG">
+  EquationsOutputType="PNG"
+  MasterToc="/Project/TOCs/Hillynet.fltoc">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
