@@ -151,11 +151,11 @@
         Name="Main Page">
         <Properties>
           <Property
-            Name="MaxWidth">75em</Property>
-          <Property
             Name="PaddingLeft">1em</Property>
           <Property
             Name="PaddingTop">1em</Property>
+          <Property
+            Name="MaxWidth">92%</Property>
         </Properties>
       </Style>
       <Style

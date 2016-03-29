@@ -39,15 +39,15 @@
           <Property
             Name="Color">#006e6b</Property>
           <Property
-            Name="BorderTop">solid 0px #006e6b</Property>
-          <Property
-            Name="BorderRight">solid 0px #006e6b</Property>
-          <Property
-            Name="BorderBottom">solid 0px #006e6b</Property>
-          <Property
-            Name="BorderLeft">solid 0px #006e6b</Property>
-          <Property
             Name="Display">block</Property>
+          <Property
+            Name="BorderTop">solid 1px #006e6b</Property>
+          <Property
+            Name="BorderRight">solid 1px #006e6b</Property>
+          <Property
+            Name="BorderBottom">solid 1px #006e6b</Property>
+          <Property
+            Name="BorderLeft">solid 1px #006e6b</Property>
         </Properties>
       </Style>
       <Style
@@ -113,7 +113,7 @@
           <Property
             Name="Color">#000000</Property>
           <Property
-            Name="BackgroundColor">transparent</Property>
+            Name="BackgroundColor">#d6d6d6</Property>
         </Properties>
       </Style>
       <Medium

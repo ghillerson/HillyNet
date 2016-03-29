@@ -8,7 +8,8 @@
     Title="Technical Writing"
     Link="../../Content/TechWriter.html" />
   <TocEntry
-    Title="Experience">
+    Title="Experience"
+    Link="/Content/Intro.Experience.html">
     <TocEntry
       Title="Technical Tools Expertise"
       Link="../../Content/TechnicalTools.html" />
