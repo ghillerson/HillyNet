@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="true"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  MasterPage="/Content/Resources/MasterPages/TopicNoMenu.flmsp"
+  ResultsPerPage="20"
+  Skin="/Project/Skins/GRHWeb.flskn"
+  DefaultUrl="/Content/index.html"
+  UseCustomTopicFileExtension="true"
+  CustomTopicFileExtension="html"
+  AbstractLength="160"
+  ConditionTagExpression=""
+  MasterStylesheet="/Content/Resources/Stylesheets/GRHStyles.css"
+  EnableSitemap="true"
+  SitemapWebUrl="http://www.garyhillerson.com/"
+  UseDeviceWidth="false"
+  PreCompileScaledImages="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Dest.GRHWeb.fldes" />
+  </Destinations>
+  <Variables>
+    <Variable
+      Name="General/CompanyName">Gary R Hillerson</Variable>
+    <Variable
+      Name="General/StreetAddress">PO Box 875</Variable>
+  </Variables>
+</CatapultTarget>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="158" MadCap:lastWidth="1375">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Gary Hillerson, Technical Writing Consultant" />
+        <meta name="author" content="Gary R Hillerson" /><title></title>
+        <link href="../Stylesheets/GRHStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="sideContent">
+                        <div class="clearfix">
+                            <MadCap:topicToolbarProxy />
+                        </div>
+                        <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+                    </div>
+                    <MadCap:breadcrumbsProxy />
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+            <div class="footerCopyright">
+                <p class="copyright">©Copyright 2016&#160;&#160;&#160;Gary R Hillerson</p>
+            </div>
+        </div>
+    </body>
+</html>
