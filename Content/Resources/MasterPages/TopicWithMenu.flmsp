@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="114" MadCap:lastWidth="885">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="141" MadCap:lastWidth="826">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="Gary Hillerson, Technical Writing Consultant" />
@@ -11,7 +11,7 @@
             <div id="contentBody">
                 <div class="row collapse">
                     <div class="sideContent">
-                        <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+                        <MadCap:menuProxy style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
                     </div>
                     <MadCap:bodyProxy />
                 </div>
