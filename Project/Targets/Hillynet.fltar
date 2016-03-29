@@ -28,7 +28,7 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/Dest.GRHWeb.fldes" />
+      Link="/Project/Destinations/Dest.HillyNet.fldes" />
   </Destinations>
   <Variables>
     <Variable
