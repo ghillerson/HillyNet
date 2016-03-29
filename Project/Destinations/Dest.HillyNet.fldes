@@ -7,7 +7,7 @@
   Password=""
   Directory="public_html"
   Port="22"
-  ViewUrl="http://www.garyhillerson.com/"
+  ViewUrl="http://www.hillysun.net/"
   Type="sftp"
   SftpServerValidation="validation-none"
   SftpAuthentication="authentication-password"

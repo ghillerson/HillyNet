@@ -19,7 +19,6 @@ body
 	background-color: #fcc400;
 }
 
-
 .italic
 {
 	font-style: italic;
@@ -28,12 +27,6 @@ body
 .bold
 {
 	font-weight: bold;
-}
-
-.code
-{
-	font-family: monospace;
-	font-style: normal;
 }
 
 .grhTeal
@@ -83,23 +76,8 @@ blockquote
 	padding: 5px 10px 5px 10px;
 }
 
-div.sideContent
-{
-	float: right;
-	margin-left: 10px;
-	margin-bottom: 10px;
-	width: 0%;
-}
-
 div.centered
 {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-div.centeredHalfWidth
-{
-	max-width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -109,42 +87,37 @@ div.content
 	
 }
 
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 15%;
+}
+
+div.centeredHalfWidth
+{
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 div.footer
 {
-	background: -webkit-linear-gradient(#009999, white);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#009999, white);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#009999, white);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#009999, white);
-	/* Standard syntax */
-	font-family: sans-serif;
-	font-style: normal;
-	font-size: 0.7em;
-	color: #009999;
-	height: 28px;
-	margin: 30px 0 0 0;
+	margin: 30px auto 0 auto;
 	padding: 1px 4px 2px 4px;
 	width: 100%;
 }
 
-div.footer a:link,
-div.footer a:hover,
-div.footer a:visited
+div.footerCopyright
 {
-	color: #009999;
-	text-decoration: underline;
-}
-
-div.footerLinks
-{
-	float: left;
-}
-
-div.footerSocial
-{
-	float: right;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 0.65em;
+	color: #006e6b;
+	margin: 15px 0 0 0;
+	padding: 2px 0 0 0;
+	text-align: center;
 }
 
 div.homePage
@@ -157,7 +130,7 @@ div.homePage
 	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(#b8e3e3, white);
 	/* Standard syntax */
-	margin: 10px 5% 0 5%;
+	margin: 10px 4% 0 4%;
 	border-color: #009999;
 	border-style: solid;
 	border-width: 2px;
@@ -169,36 +142,13 @@ div.homePage
 	text-align: left;
 }
 
-div.ImagesFloatLeft
+div.sideContent
 {
-	clear: both;
-	float: left;
-	margin-right: 10px;
-	padding: 5px;
-}
-
-div.ImagesFloatRight
-{
-	clear: both;
 	float: right;
-	margin-left: 10px;
-	padding: 5px;
-}
-
-div.footerCopyright
-{
-	font-family: sans-serif;
-	font-style: normal;
-	font-size: 0.65em;
-	color: #006e6b;
-	margin: 20 0 0 0;
-	padding: 2px 0 0 0;
-	text-align: center;
-}
-
-div.indented
-{
-	left-margin: 40px;
+	margin: 32px 5% 10px 20px;
+	width: 20%;
+	word-wrap: break-word;
+	overflow: auto;
 }
 
 h1
@@ -252,9 +202,12 @@ h2
 
 h3
 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 1.0em;
 	font-weight: normal;
-	font-style: italic;
+	font-style: normal;
+	text-transform: capitalize;
+	font-variant: small-caps;
 	margin-bottom: 4px;
 	margin-top: 30px;
 	color: #006e6b;
@@ -272,32 +225,20 @@ h4
 
 img
 {
+	display: block;
 	border: none;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto
 }
 
 img.halfWidth
 {
+	display: block;
+	border: none;
 	max-width: 50%;
-	height: auto;
-}
-
-img.halfWidthIndent
-{
-	max-width: 50%;
-	height: auto;
-	margin-left: 15%;
-}
-
-img.indentBorder
-{
-	border: 2px solid #003a8a;
-	margin-left: 5%;
-	max-width: 90%;
-}
-
-img.Thumbnail
-{
-	mc-thumbnail: popup;
+	margin-left: auto;
+	margin-right: auto
 }
 
 li
@@ -523,7 +464,7 @@ span.SmallerText
 table
 {
 	table-layout: auto;
-	border: 1px solid #b4b4b4;
+	border: none;
 	border-collapse: collapse;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -553,7 +494,7 @@ table caption
 
 table td
 {
-	border: 1px solid #b4b4b4;
+	border: none;
 	padding: 8px;
 	text-align: left;
 	vertical-align: top;
@@ -564,35 +505,10 @@ table td
 	font-style: normal;
 }
 
-table td.BoldFont
+table td p:first-child
 {
-	font-weight: bold;
-}
-
-table td.ItalicFont
-{
-	font-style: italic;
-}
-
-table td.PlainFont
-{
-	font-weight: normal;
-}
-
-table td.Separator
-{
-	background-color: #eee;
-	height: 4px;
-	line-height: 4px;
-}
-
-table td.smallText,
-table th.smallText
-{
-	color: #404040;
-	font-family: sans-serif;
-	font-size: 10px;
-	line-height: 13px;
+	padding-top: 0;
+	margin-top: 0;
 }
 
 table th
@@ -608,11 +524,6 @@ table th
 	font-weight: bold;
 	background-color: #dcdcdc;
 	color: #404040;
-}
-
-table th.bottom
-{
-	vertical-align: bottom;
 }
 
 table ul
@@ -804,18 +715,7 @@ li.desktop
 	visibility: hidden;
 }
 
-html.HomePage
-{
-	mc-master-page: url('../MasterPages/HomePage.flmsp');
-}
-
 html.topicWithMenu
 {
 	mc-master-page: url('../MasterPages/TopicWithMenu.flmsp');
 }
-
-html.topicNoMenu
-{
-	mc-master-page: url('../MasterPages/TopicNoMenu.flmsp');
-}
-

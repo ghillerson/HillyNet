@@ -47,7 +47,7 @@
           <Property
             Name="BorderLeft">solid 0px #006e6b</Property>
           <Property
-            Name="Display">none</Property>
+            Name="Display">block</Property>
         </Properties>
       </Style>
       <Style
