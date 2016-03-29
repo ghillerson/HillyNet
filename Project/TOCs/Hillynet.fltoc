@@ -3,30 +3,30 @@
   Version="1">
   <TocEntry
     Title="Home"
-    Link="../../Content/index.html" />
+    Link="/Content/index.html" />
   <TocEntry
     Title="Technical Writing"
-    Link="../../Content/TechWriter.html" />
+    Link="/Content/TechWriter.html" />
   <TocEntry
     Title="Experience"
     Link="/Content/Intro.Experience.html">
     <TocEntry
       Title="Technical Tools Expertise"
-      Link="../../Content/TechnicalTools.html" />
+      Link="/Content/TechnicalTools.html" />
     <TocEntry
       Title="Software Engineering"
-      Link="../../Content/Programmer.html" />
+      Link="/Content/Programmer.html" />
     <TocEntry
       Title="Psychotherapy"
-      Link="../../Content/Therapist.html" />
+      Link="/Content/Therapist.html" />
     <TocEntry
       Title="Bookbinding"
-      Link="../../Content/Bookbinder.html" />
+      Link="/Content/Bookbinder.html" />
   </TocEntry>
   <TocEntry
     Title="Education and Personal"
-    Link="../../Content/PersonalHistory.html" />
+    Link="/Content/PersonalHistory.html" />
   <TocEntry
     Title="Contact Info"
-    Link="../../Content/Contact.html" />
+    Link="/Content/Contact.html" />
 </CatapultToc>
