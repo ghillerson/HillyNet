@@ -423,9 +423,9 @@
           Name="Navigation Slide Out Button">
           <Properties>
             <Property
-              Name="BackgroundColor">#77c9c9</Property>
-            <Property
               Name="BackgroundImage">url('Menu.png')</Property>
+            <Property
+              Name="BackgroundColor">transparent</Property>
           </Properties>
         </Style>
       </Medium>
