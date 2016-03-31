@@ -11,6 +11,8 @@
     <Resources>
       <Resource
         Name="SkinLogoBanner_1.png">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</Resource>
+      <Resource
+        Name="Menu.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0mJALMjBBiRvboxpBlIs6Y6+jgwMG/u5/ySyAvkKyR5BvgwMVWoMDA0tDAy/gEINLxgYSg0YGF4lMDBYzWBgEC+YsyvQBijBWeARWczAwC0Iwoz1KfETgYISJa4RJcH5aSXliUWpDAWJmXklenmpJQomegZ6pqmtRqlANRaeLo4hFv7JP/yVDVh4/31/P59d1+DwBeYDDwyWscr55hUweOUZbTlwQUPGi0FCRnTLgcUnebn+/Wdn2HXb6PFjDdnJQDMYPF39XNY5JTQBAMWFGkLmAAAA</Resource>
     </Resources>
     <Styles>
       <Style
@@ -336,7 +338,9 @@
           Name="Navigation Slide Out Button">
           <Properties>
             <Property
-              Name="BackgroundColor">#77c9c9</Property>
+              Name="BackgroundColor">transparent</Property>
+            <Property
+              Name="BackgroundImage">none</Property>
           </Properties>
         </Style>
         <Style
@@ -413,7 +417,20 @@
           </Properties>
         </Style>
       </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Navigation Slide Out Button">
+          <Properties>
+            <Property
+              Name="BackgroundColor">#77c9c9</Property>
+            <Property
+              Name="BackgroundImage">url('Menu.png')</Property>
+          </Properties>
+        </Style>
+      </Medium>
     </Styles>
+    <Stylesheet></Stylesheet>
   </Stylesheet>
   <WebHelpOptions
     NavigationPanePosition="Right" />
